@@ -1,8 +1,8 @@
 .POSIX:
 
-PREFIX = /usr/local
-CFLAGS = -Ofast
-LDLIBS = -lX11
+PREFIX := /usr/local
+CFLAGS := -Ofast
+LDLIBS := -lX11
 
 BIN = dwmblocks
 
